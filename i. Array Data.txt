@@ -1,0 +1,32 @@
+i. Array Data Structure:
+An array is a data structure that holds a fixed number of elements of the same data type. It stores elements in contiguous memory locations, allowing quick access via indices. Arrays can be one-dimensional (like a list) or multi-dimensional (like a table or matrix).
+
+ii.
+2D array declaration and initialization
+scores = [
+    [65, 84],
+    [92, 78],
+    [85, 59],
+    [70, 67]
+]
+
+iii. Print the Elements of the Array Using a Nested For Loop:
+
+Here’s how you can use a nested loop to print each element:
+
+# Loop through rows
+for i in range(len(scores)):
+    # Loop through columns
+    for j in range(len(scores[i])):
+        print(scores[i][j], end=" ")
+    print()  # Newline after each row
+
+Expected Output:
+
+65 84 
+92 78 
+85 59 
+70 67
+
+This code prints each element in scores row by row. The end=" " argument ensures elements in a row are printed on the same line, and print() after each row moves to the next line.
+
